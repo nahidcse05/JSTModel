@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=51200MB
+#SBATCH --time=06:20:00
+#SBATCH -p economy
+#SBATCH --output=/nv/blue/mr4xb/public_html/JST-master/output/consoleLog.txt
+#SBATCH --error=/nv/blue/mr4xb/public_html/JST-master/output/consoleEroor.txt
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mr4xb@virginia.edu
+
+cd /nv/blue/mr4xb/public_html/JST-master/src/
+g++ -o main main.cpp model.cpp utils.cpp dataset.cpp strtokenizer.cpp inference.cpp polya_fit_simple.cpp math_func.cpp
+./main -est -config cameratrainingsenti5000.properties
+./main -inf -config cameratestsenti5000.properties 
+./main -est -config tablettrainingsenti5000.properties
+./main -inf -config tablettestsenti5000.properties
+./main -est -config phonetrainingsenti5000.properties
+./main -inf -config phonetestsenti5000.properties 
+./main -est -config tvtrainingsenti5000.properties
+./main -inf -config tvtestsenti5000.properties 

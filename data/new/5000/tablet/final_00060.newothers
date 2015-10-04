@@ -1,0 +1,21 @@
+model_dir=./result/5000/tablet/
+model_name=final
+data_dir=./data/5000/tablet/
+datasetFile=MR_test.dat
+result_dir=./result/5000/tablet/
+niters-inf=100
+savestep-inf=20
+
+------------------ Testset ** MR_test.dat ** statistics ----------------------
+newNumDocs=1345
+newCorpusSize=35906
+newVocabSize=1505
+numNewWords=0
+aveDocLength=26
+
+------------------ Loaded model settings ----------------------
+numSentiLabs=3
+numTopics=13
+numDocs=5409
+corpusSize=0
+vocabSize=1515

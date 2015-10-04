@@ -1,0 +1,21 @@
+model_dir=./result/5000/phone/
+model_name=final
+data_dir=./data/5000/phone/
+datasetFile=MR_test_sentence.dat
+result_dir=./result/5000/phone/senti/
+niters-inf=100
+savestep-inf=20
+
+------------------ Testset ** MR_test_sentence.dat ** statistics ----------------------
+newNumDocs=7083
+newCorpusSize=31929
+newVocabSize=1216
+numNewWords=53
+aveDocLength=4
+
+------------------ Loaded model settings ----------------------
+numSentiLabs=3
+numTopics=13
+numDocs=4282
+corpusSize=0
+vocabSize=1227

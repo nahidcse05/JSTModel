@@ -1,0 +1,11 @@
+nsentiLabs=3
+ntopics=13
+niters=100
+savestep=50
+updateParaStep=50
+twords=100
+data_dir=./data/4000/tv/
+datasetFile=MR.dat
+result_dir=./result/4000/tv/
+sentiFile=./data/mpqa1.constraint
+beta=0.01

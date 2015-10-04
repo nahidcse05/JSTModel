@@ -1,0 +1,20 @@
+data_dir=./data/5000/tv/
+datasetFile=MR.dat
+result_dir=./result/5000/tv/
+sentiLexFile=./data/mpqa.constraint
+
+-------------------- Corpus statistics -----------------------
+numDocs=4749
+corpusSize=141716
+aveDocLength=29
+vocabSize=1410
+
+---------------------- Model settings -----------------------
+numSentiLabs=3
+numTopics=8
+liter=100
+savestep=50
+updateParaStep=50
+_alpha=0.060417
+_beta=0.010000
+_gamma=0.483333

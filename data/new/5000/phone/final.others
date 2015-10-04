@@ -1,0 +1,20 @@
+data_dir=./data/5000/phone/
+datasetFile=MR.dat
+result_dir=./result/5000/phone/
+sentiLexFile=./data/mpqa.constraint
+
+-------------------- Corpus statistics -----------------------
+numDocs=4282
+corpusSize=109699
+aveDocLength=25
+vocabSize=1227
+
+---------------------- Model settings -----------------------
+numSentiLabs=3
+numTopics=13
+liter=100
+savestep=50
+updateParaStep=50
+_alpha=0.032051
+_beta=0.010000
+_gamma=0.416667

@@ -1,0 +1,21 @@
+model_dir=./result/5000/tv/
+model_name=final
+data_dir=./data/5000/tv/
+datasetFile=MR_test_sentence.dat
+result_dir=./result/5000/tv/senti/
+niters-inf=100
+savestep-inf=20
+
+------------------ Testset ** MR_test_sentence.dat ** statistics ----------------------
+newNumDocs=11083
+newCorpusSize=56936
+newVocabSize=1406
+numNewWords=0
+aveDocLength=5
+
+------------------ Loaded model settings ----------------------
+numSentiLabs=3
+numTopics=8
+numDocs=4749
+corpusSize=0
+vocabSize=1410

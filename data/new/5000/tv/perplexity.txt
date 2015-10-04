@@ -1,0 +1,2 @@
+The number of docs: 1180 
+Perplexity is: 67924.489115 

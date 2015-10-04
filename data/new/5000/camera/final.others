@@ -1,0 +1,20 @@
+data_dir=./data/5000/camera/
+datasetFile=MR.dat
+result_dir=./result/5000/camera/
+sentiLexFile=./data/mpqa.constraint
+
+-------------------- Corpus statistics -----------------------
+numDocs=5048
+corpusSize=161533
+aveDocLength=31
+vocabSize=1563
+
+---------------------- Model settings -----------------------
+numSentiLabs=3
+numTopics=13
+liter=100
+savestep=50
+updateParaStep=50
+_alpha=0.039744
+_beta=0.010000
+_gamma=0.516667
